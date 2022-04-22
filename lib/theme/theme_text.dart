@@ -37,103 +37,103 @@ class AppTextTheme {
   static TextTheme redTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.red),
-      button: defaultTheme.button.copyWith(color: Colors.white),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.red),
+      button: defaultTheme.button!.copyWith(color: Colors.white),
     );
   }
 
   static TextTheme multiBlackTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.black87),
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.black87),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.black87),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.black87),
-      headline3: defaultTheme.headline4.copyWith(color: Colors.blue),
-      headline4: defaultTheme.headline4.copyWith(color: Colors.black),
-      headline5: defaultTheme.headline5.copyWith(color: Colors.white),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.black87),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.black87),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.black87),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.black87),
+      headline3: defaultTheme.headline4!.copyWith(color: Colors.blue),
+      headline4: defaultTheme.headline4!.copyWith(color: Colors.black),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.white),
       headline6: TextStyle(color: Color(0xFF222222), fontSize: 18),
-      caption: defaultTheme.caption.copyWith(color: Colors.grey[400]),
-      overline: defaultTheme.overline.copyWith(color: Colors.grey[700]),
-      button: defaultTheme.button.copyWith(color: Colors.white),
+      caption: defaultTheme.caption!.copyWith(color: Colors.grey[400]),
+      overline: defaultTheme.overline!.copyWith(color: Colors.grey[700]),
+      button: defaultTheme.button!.copyWith(color: Colors.white),
     );
   }
 
   static TextTheme blackGreyTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.black87),
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.black87),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.black87),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.black87),
-      headline5: defaultTheme.headline5.copyWith(color: Colors.black87),
-      headline6: defaultTheme.headline6.copyWith(color: Colors.black87),
-      caption: defaultTheme.caption.copyWith(color: Colors.grey[400]),
-      button: defaultTheme.button.copyWith(color: Colors.blue),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.black87),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.black87),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.black87),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.black87),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.black87),
+      headline6: defaultTheme.headline6!.copyWith(color: Colors.black87),
+      caption: defaultTheme.caption!.copyWith(color: Colors.grey[400]),
+      button: defaultTheme.button!.copyWith(color: Colors.blue),
     );
   }
 
   static TextTheme pageBlackGreyTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.black87),
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.grey[400]),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.black),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.black87),
-      headline5: defaultTheme.headline5.copyWith(color: Colors.black87),
-      headline6: defaultTheme.headline6.copyWith(color: Colors.black87),
-      caption: defaultTheme.caption.copyWith(color: Colors.grey[400]),
-      button: defaultTheme.button.copyWith(color: Colors.black),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.black87),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.grey[400]),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.black),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.black87),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.black87),
+      headline6: defaultTheme.headline6!.copyWith(color: Colors.black87),
+      caption: defaultTheme.caption!.copyWith(color: Colors.grey[400]),
+      button: defaultTheme.button!.copyWith(color: Colors.black),
     );
   }
 
   static TextTheme grayTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.grey[500]),
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.grey[500]),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.grey[500]),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.grey[500]),
-      headline5: defaultTheme.headline5.copyWith(color: Colors.grey[500]),
-      caption: defaultTheme.caption.copyWith(color: Colors.grey[500]),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.grey[500]),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.grey[500]),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.grey[500]),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.grey[500]),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.grey[500]),
+      caption: defaultTheme.caption!.copyWith(color: Colors.grey[500]),
     );
   }
 
   static TextTheme whiteTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.white),
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.white),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.white),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.white),
-      headline5: defaultTheme.headline5.copyWith(color: Colors.white),
-      headline6: defaultTheme.headline6.copyWith(color: Colors.white),
-      caption: defaultTheme.caption.copyWith(color: Colors.white),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.white),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.white),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.white),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.white),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.white),
+      headline6: defaultTheme.headline6!.copyWith(color: Colors.white),
+      caption: defaultTheme.caption!.copyWith(color: Colors.white),
     );
   }
 
   static TextTheme blueTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.blue),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.blue),
     );
   }
 
   static TextTheme reportTextTheme(BuildContext context) {
     TextTheme defaultTheme = Theme.of(context).textTheme;
     return defaultTheme.copyWith(
-      bodyText2: defaultTheme.bodyText2.copyWith(color: Colors.black87),
-      bodyText1: defaultTheme.bodyText1.copyWith(color: Colors.black87),
-      subtitle2: defaultTheme.subtitle2.copyWith(color: Colors.black87),
-      subtitle1: defaultTheme.subtitle1.copyWith(color: Colors.black87),
-      headline4: defaultTheme.headline4.copyWith(color: Colors.black),
+      bodyText2: defaultTheme.bodyText2!.copyWith(color: Colors.black87),
+      bodyText1: defaultTheme.bodyText1!.copyWith(color: Colors.black87),
+      subtitle2: defaultTheme.subtitle2!.copyWith(color: Colors.black87),
+      subtitle1: defaultTheme.subtitle1!.copyWith(color: Colors.black87),
+      headline4: defaultTheme.headline4!.copyWith(color: Colors.black),
       //得分
-      headline5: defaultTheme.headline5.copyWith(color: Colors.black, fontWeight: FontWeight.w800, fontSize: 24),
+      headline5: defaultTheme.headline5!.copyWith(color: Colors.black, fontWeight: FontWeight.w800, fontSize: 24),
       //item title text
-      headline6: defaultTheme.headline5.copyWith(color: Colors.black, fontWeight: FontWeight.w800, fontSize: 18),
-      caption: defaultTheme.caption.copyWith(color: Colors.grey[400]),
-      overline: defaultTheme.overline.copyWith(color: Colors.grey[700]),
-      button: defaultTheme.button.copyWith(color: Colors.white),
+      headline6: defaultTheme.headline5!.copyWith(color: Colors.black, fontWeight: FontWeight.w800, fontSize: 18),
+      caption: defaultTheme.caption!.copyWith(color: Colors.grey[400]),
+      overline: defaultTheme.overline!.copyWith(color: Colors.grey[700]),
+      button: defaultTheme.button!.copyWith(color: Colors.white),
     );
   }
 }

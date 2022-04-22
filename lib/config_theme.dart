@@ -24,19 +24,19 @@ import 'package:roobo_theme/theme/theme_text.dart';
 /// 更换主题配置即可查看效果
 ///
 class ThemeConfig {
-  static List<ThemeData> _appTheme;
+  static List<ThemeData>? _appTheme;
 
   ///appbar 右上角的文字颜色 appbartheme 无法控制 使用以下方式获取
-  static List<Color> _appBarRightButtonTextColors;
+  static late List<Color> _appBarRightButtonTextColors;
 
   ///主题色按钮 中文字的style设置 包含 颜色和大小
-  static List<TextStyle> _primaryButtonTextStyle;
+  static late List<TextStyle> _primaryButtonTextStyle;
 
   ///当前主题色，用于主题切换
-  static ThemeData currentThemeData;
+  static ThemeData? currentThemeData;
 
   ///主题配色集合
-  static List<ThemeData> get themeList => _appTheme;
+  static List<ThemeData>? get themeList => _appTheme;
 
   static void init(BuildContext context) {
     _appTheme = [
@@ -52,7 +52,7 @@ class ThemeConfig {
       TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w700),
     ];
 
-    currentThemeData = _appTheme[0];
+    currentThemeData = _appTheme![0];
   }
 
   ///二级页面通用主题，灰色背景#F5F6FA
